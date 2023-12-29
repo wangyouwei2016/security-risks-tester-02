@@ -2,7 +2,9 @@ package com.example.demo;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import com.example.demo.risk.InsecureRandomNumber;
+
+import com.example.demo.codeqa.InsecureRandomNumber;
+
 import org.junit.Assert;
 
 @SpringBootTest
