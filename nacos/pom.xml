@@ -731,6 +731,68 @@
                 <scope>test</scope>
             </dependency>
 
+   <!-- 漏洞1: 使用了不安全的第三方库 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>insecure-library</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <!-- 漏洞2: 使用了过时的加密算法 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>outdated-crypto</artifactId>
+      <version>2.3</version>
+    </dependency>
+    <!-- 漏洞3: 存在注入漏洞 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>injection-vulnerable</artifactId>
+      <version>3.5</version>
+    </dependency>
+    <!-- 漏洞4: 使用了不安全的网络传输协议 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>insecure-protocol</artifactId>
+      <version>4.1</version>
+    </dependency>
+    <!-- 漏洞5: 依赖的健康状况不佳 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>unhealthy-dependency</artifactId>
+      <version>5.2</version>
+    </dependency>
+    <!-- 漏洞6: 存在已知的漏洞 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>known-vulnerability</artifactId>
+      <version>6.4</version>
+    </dependency>
+    <!-- 漏洞7: 未测试依赖项的校验和 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>unchecked-checksum</artifactId>
+      <version>7.7</version>
+    </dependency>
+    <!-- 漏洞8: 使用了不安全的第三方库 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>insecure-library-2</artifactId>
+      <version>8.9</version>
+    </dependency>
+    <!-- 漏洞9: 存在注入漏洞 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>injection-vulnerable-2</artifactId>
+      <version>9.6</version>
+    </dependency>
+    <!-- 漏洞10: 使用了不安全的网络传输协议 -->
+    <dependency>
+      <groupId>org.vulnerable</groupId>
+      <artifactId>insecure-protocol-2</artifactId>
+      <version>10.0</version>
+    </dependency>
+
+          
         </dependencies>
     </dependencyManagement>
 
